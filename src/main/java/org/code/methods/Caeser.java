@@ -2,9 +2,9 @@ package org.code.methods;
 
 public class Caeser {
     public String caesar(String text, int key, boolean isTextEncrypted) {
-        char textBefore[] = text.toCharArray();
+        char[] textBefore = text.toCharArray();
         int length = text.length();
-        char textAfter[] = new char[length];
+        char[] textAfter = new char[length];
         for (int i = 0; i < length; i++) {
             char letter = textBefore[i];
             int numBefore = (int) letter;
