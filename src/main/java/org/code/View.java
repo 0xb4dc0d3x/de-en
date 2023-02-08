@@ -19,8 +19,7 @@ public class View {
     static JTextArea textArea1 = new JTextArea(21, 23);
     static JTextArea textArea2 = new JTextArea(21, 23);
 
-    public View()
-    {
+    public View() {
         JFrame frame = new JFrame();
         int frameWidth = 800, frameHeight = 600;
         frame.setSize(frameWidth, frameHeight);
@@ -38,8 +37,8 @@ public class View {
         p2.setBackground(bottom_color);
         p1.setPreferredSize(new Dimension(frameWidth, 110));
         p2.setPreferredSize(new Dimension(frameWidth, frameHeight - 100));
-        frame.add(p1,BorderLayout.PAGE_START);
-        frame.add(p2,BorderLayout.PAGE_END);
+        frame.add(p1, BorderLayout.PAGE_START);
+        frame.add(p2, BorderLayout.PAGE_END);
 
         p1.setLayout(new FlowLayout());
 
@@ -56,7 +55,7 @@ public class View {
         comboBox.setFont(font_menu);
         p1.add(comboBox);
 
-        textField.setPreferredSize(new Dimension(50,30));
+        textField.setPreferredSize(new Dimension(50, 30));
         textField.setFont(font_for_text_area);
         p1.add(textField);
 

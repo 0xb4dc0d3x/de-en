@@ -14,8 +14,7 @@ public class Controller implements ActionListener {
     Histogram histogram = new Histogram();
 
 
-    public void actionPerformed(ActionEvent event)
-    {
+    public void actionPerformed(ActionEvent event) {
         String text = View.textArea1.getText();
         String method = Objects.requireNonNull(View.comboBox.getSelectedItem()).toString();
         String key_string = View.textField.getText();
