@@ -1,6 +1,6 @@
 # de-en
 <p align="center">
-  <img src="https://github.com/0xb4dc0d3x/de-en/raw/master/de-en.PNG"  alt="screenshot"/>
+  <img src="https://github.com/0xb4dc0d3x/de-en/raw/master/de-en.PNG"  alt="screenshot" height="480" width="480"/>
 </p>
 
 Text Encoder and Decoder with GUI 
